@@ -9,8 +9,8 @@ export default function DragonBall() {
   const [detalhes, setDetalhes] = useState(null);
   const [index, setIndex] = useState(0);
 
-  const limit = 60;
-  const randonName = Math.floor(Math.random() * 60);
+  const limit = 80;
+  const randonName = Math.floor(Math.random() * 80);
 
   async function fetchDragonName() {
     try {
